@@ -1,0 +1,24 @@
+Synthetic packets generated; extracting features.
+Training and evaluating held-out scenarios.
+{
+  "report": "runs/verified_demo/evaluation/report.html",
+  "prediction": {
+    "predicted_label": "ai_a_voice",
+    "service": "Service A",
+    "mode": "voice",
+    "is_genai": 1,
+    "horizon_seconds": 30,
+    "model": "size_logistic",
+    "provenance": "synthetic",
+    "uncalibrated_scores": {
+      "ai_a_video": 0.008724886330614965,
+      "ai_a_voice": 0.8473347907534858,
+      "ai_b_video": 0.0030874894898439385,
+      "ai_b_voice": 0.12886595420366934,
+      "conventional_video": 0.004767155071558411,
+      "conventional_voice": 0.007219724150827409
+    },
+    "notice": "Synthetic demonstration only."
+  },
+  "notice": "SYNTHETIC DEMO \u2014 these scores do not measure real GenAI services."
+}

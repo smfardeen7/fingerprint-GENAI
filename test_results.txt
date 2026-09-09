@@ -1,0 +1,31 @@
+test_day_leakage_rejected (test_pipeline.DatasetTests.test_day_leakage_rejected) ... ok
+test_duplicate_trace_rejected (test_pipeline.DatasetTests.test_duplicate_trace_rejected) ... ok
+test_missing_class_rejected (test_pipeline.DatasetTests.test_missing_class_rejected) ... ok
+test_mixed_provenance_rejected (test_pipeline.DatasetTests.test_mixed_provenance_rejected) ... ok
+test_scenario_leakage_rejected (test_pipeline.DatasetTests.test_scenario_leakage_rejected) ... ok
+test_valid_grouped_manifest (test_pipeline.DatasetTests.test_valid_grouped_manifest) ... ok
+test_group_bootstrap_paired_identity (test_pipeline.EvaluationTests.test_group_bootstrap_paired_identity) ... ok
+test_network_identifier_validation (test_pipeline.EvaluationTests.test_network_identifier_validation) ... ok
+test_network_plan_two_direction_delay (test_pipeline.EvaluationTests.test_network_plan_two_direction_delay) ... ok
+test_network_refuses_foreign_qdisc (test_pipeline.EvaluationTests.test_network_refuses_foreign_qdisc) ... ok
+test_network_rollback_after_failure (test_pipeline.EvaluationTests.test_network_rollback_after_failure) ... ok
+test_predict_rejects_real_synthetic_mixing (test_pipeline.IntegrationContractTests.test_predict_rejects_real_synthetic_mixing) ... ok
+test_register_is_atomic_and_labels_from_plan (test_pipeline.IntegrationContractTests.test_register_is_atomic_and_labels_from_plan) ... ok
+test_absolute_clock_invariance (test_pipeline.PacketTests.test_absolute_clock_invariance) ... ok
+test_big_endian_pcap (test_pipeline.PacketTests.test_big_endian_pcap) ... ok
+test_feature_allowlist (test_pipeline.PacketTests.test_feature_allowlist) ... ok
+test_ipv6_metadata (test_pipeline.PacketTests.test_ipv6_metadata) ... ok
+test_nonfinite_and_bad_direction (test_pipeline.PacketTests.test_nonfinite_and_bad_direction) ... ok
+test_payload_identifier_columns_rejected (test_pipeline.PacketTests.test_payload_identifier_columns_rejected) ... ok
+test_pcap_roundtrip_metadata (test_pipeline.PacketTests.test_pcap_roundtrip_metadata) ... ok
+test_pcapng_enhanced_packets (test_pipeline.PacketTests.test_pcapng_enhanced_packets) ... ok
+test_prefix_causality_and_boundary (test_pipeline.PacketTests.test_prefix_causality_and_boundary) ... ok
+test_single_direction_finite (test_pipeline.PacketTests.test_single_direction_finite) ... ok
+test_truncation_rejected (test_pipeline.PacketTests.test_truncation_rejected) ... ok
+test_unknown_device_rejected (test_pipeline.PacketTests.test_unknown_device_rejected) ... ok
+test_vlan_and_sll (test_pipeline.PacketTests.test_vlan_and_sll) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 4.224s
+
+OK
