@@ -1,5 +1,11 @@
 # Fingerprinting Human–GenAI Multimedia Traffic
 
+![Source-derived architecture for GenAI Traffic Fingerprinting](docs/images/project-overview.png)
+
+**Implementation overview:** A reproducible packet-metadata research toolkit. [Source map and scope](docs/PORTFOLIO.md).
+
+Demonstration data is synthetic. No real ChatGPT, Gemini or other service traffic was collected for this deliverable.
+
 A runnable CS 692 research project for Shaik Mohammad Fardeen. It classifies known service/mode labels from packet sizes, timing, direction and bursts. It includes capture tooling, PCAP/PCAPNG import, collection worksheets, grouped dataset validation, six model/baseline comparisons, early-window classification, network-transfer evaluation, bootstrap intervals, saved models and a standalone offline report.
 
 **The demo run is synthetic. Its scores are software checks, not evidence about ChatGPT, Gemini, or any other actual service. No real traffic was collected for this deliverable.**
